@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to right,#4CA1AF, #C4E0E5);
+    color: white;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container{
+    text-align: center;
+    h1{
+        margin-bottom: 5rem;
+        font-size: 5rem;
+    }
+    p{
+        margin-bottom: 5rem;
+        font-size: 5rem;
+    }
+    .button{
+        button{
+            margin: 3rem;
+            font-size: 2rem;
+            padding: 0.5rem 1rem;
+            border-radius: 1rem;
+            border: none;
+            cursor: pointer;
+            &:active{
+                color: white;
+                background-color: black;
+                transition: 0.1s;
+            }
+        }
+    }
+}
